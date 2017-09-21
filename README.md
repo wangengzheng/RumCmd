@@ -2,7 +2,8 @@
 
 # Code
 
-```
+``` 
+        //借用 wkhtmltopdf 将网址生成pdf        
  	var cmd = new RunCmd();
 	
 	cmd.ToolPath=@"E:\1nuget\wkhtmltopdf-x64.0.13.0-alpha3\tools\wkhtmltopdf";
@@ -24,5 +25,9 @@
       
       
 ```
+
+官网 [wkhtmltopdf](http://wkhtmltopdf.org/) 
+Nuget地址 [wkhtmltopdf](https://www.nuget.org/packages/wkhtmltopdf-x86-win32/)
+
 
 ## 工具 LinqPad4
