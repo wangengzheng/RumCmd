@@ -28,6 +28,7 @@
 
 官网 [wkhtmltopdf](http://wkhtmltopdf.org/) 
 Nuget地址 [wkhtmltopdf](https://www.nuget.org/packages/wkhtmltopdf-x86-win32/)
+参考 [NReco.PhantomJS](https://www.nuget.org/packages/NReco.PhantomJS/)
 
 
 ## 工具 LinqPad4
