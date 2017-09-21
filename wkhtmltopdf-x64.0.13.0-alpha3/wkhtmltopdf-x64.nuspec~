@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>wkhtmltopdf-x64</id>
+    <version>0.13-alpha3</version>
+    <title>WkHtmlToPdf x64 Executable</title>
+    <authors>Jakob Truelsen and Ashish Kulkarni</authors>
+    <owners>James Cheese</owners>
+    <projectUrl>http://wkhtmltopdf.org/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>wkhtmltopdf x64 exe packaged for ease of use (wkhtmltox-0.13.0-alpha-7b36694_mingw-w64-cross-win64). Version deliberately set to an odd value to allow the alpha releases to come with sane version numbers.</description>
+    <releaseNotes>See http://wkhtmltopdf.org for a changelog.</releaseNotes>
+    <tags>wkhtmltox wkhtmltopdf</tags>
+  </metadata>
+</package>

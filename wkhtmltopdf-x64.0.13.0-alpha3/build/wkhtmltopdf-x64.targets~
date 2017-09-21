@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="AfterBuild">
+    <ItemGroup>
+			<!-- MyPackage.* should be replaced by MyPackage.1.0.0.4534. But the version is set by NuGet.exe pack -Version -->
+			<FilesToCopy Include="$(MSBuildThisFileDirectory)..\tools\**\*.*"/>
+    </ItemGroup>
+    <Copy SourceFiles="@(FilesToCopy)" DestinationFolder="$(OutDir)\wkhtmltopdf"/>
+  </Target>
+</Project>
+
