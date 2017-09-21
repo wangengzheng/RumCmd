@@ -1,1 +1,0 @@
-wkhtmltopdf.exe http://sj.edsmall.cn/SubMall/orderdetailpdfview.aspx?orderId=62f52d49-f597-4f36-b868-3678d0271a0b orderdetailview.pdf
